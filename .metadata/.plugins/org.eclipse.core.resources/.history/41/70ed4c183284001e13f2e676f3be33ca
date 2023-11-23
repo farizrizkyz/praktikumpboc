@@ -1,0 +1,9 @@
+package praktikum5;
+
+public class Hewan {
+
+	public Hewan() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

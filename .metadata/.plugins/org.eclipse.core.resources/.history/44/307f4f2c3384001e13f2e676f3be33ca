@@ -1,0 +1,10 @@
+package praktikum5;
+
+public class Test {
+	public static void main(String []args) {
+		cat KucingSaya = new cat();
+		KucingSaya.identitas("Nero");
+		KucingSaya.eat();
+	}
+}
+

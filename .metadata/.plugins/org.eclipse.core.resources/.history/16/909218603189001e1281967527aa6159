@@ -1,0 +1,41 @@
+package tugaspbo;
+
+public class Handphone {
+	private String merek;
+    private String model;
+    private double harga;
+
+    public Handphone(String merek, String model, double harga) {
+        this.merek = merek;
+        this.model = model;
+        this.harga = harga;
+    }
+
+    public void tampilkanInfo() {
+        System.out.println("Merek: " + merek);
+        System.out.println("Model: " + model);
+        System.out.println("Harga: $" + harga);
+    }
+
+    public void setHarga(double hargaBaru) {
+        harga = hargaBaru;
+        System.out.println("Harga telah diupdate. Harga sekarang: $" + harga);
+    }
+
+    public static void main(String[] args) {
+        Handphone hp1 = new Handphone("Samsung", "Galaxy S21", 999.99);
+
+        System.out.println("Informasi Awal Handphone:");
+        hp1.tampilkanInfo();
+
+        hp1.setHarga(1099.99);
+
+        System.out.println("Informasi Setelah Update Harga:");
+        hp1.tampilkanInfo();
+    }
+
+	public Handphone() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

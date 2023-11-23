@@ -1,0 +1,9 @@
+package tugaspbo;
+
+public class BarangAntik {
+
+	public BarangAntik() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

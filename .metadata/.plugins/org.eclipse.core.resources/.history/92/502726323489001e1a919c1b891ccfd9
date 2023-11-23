@@ -1,0 +1,9 @@
+package tugaspbo;
+
+public class Hehicle {
+
+	public Hehicle() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
